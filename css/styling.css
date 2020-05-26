@@ -1,0 +1,192 @@
+/*Header part*/
+
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(img/hero.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh
+    
+}
+html{
+    margin-left: 0;
+}
+
+.logo {
+    float: left;
+    height: 100px;
+    width: auto;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+
+.logo-black {
+    display: none;
+    height: 50px;
+    width: auto;
+    float: left;
+    margin: 5px 0;
+    
+}
+
+.header-nav {
+    float:right;
+    list-style: none;
+    margin-top: 55px
+}
+
+.header-nav li{
+display: inline-block;
+margin-left: 40px;
+}
+
+.Goodbye {
+    position: absolute;
+    width: 1140px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    
+    
+}
+
+
+.headerbuttons {
+    padding:10px 30px;
+    display: inline-block;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 200px;
+    background-color: #e67e22;
+    border: 1px solid #e67e22;
+    color: #fff;
+    margin-right: 15px;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+}
+
+.headerbuttons:hover{
+    color: aqua;
+    background-color: blue
+}
+/*Header part ends */
+
+/*body parts starts*/
+
+body {
+    background-color: #fff;
+    color: #555;
+    font-family: 'Lato', 'Arial', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+    margin: 0px;
+}
+
+/*body parts ends*/
+
+h1,
+h2,
+h3 {
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+h2{
+    font-size: 180%;
+    word-spacing: 2px;
+    text-align: center;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+
+h2:after{
+    display: block;
+    background-color: chartreuse;
+    height: 2px;
+    width: 100px;
+    content: " ";
+    margin: 0 auto;
+    margin-top: 20px;
+    
+}
+
+h1{
+    color: white;
+    margin-top: 0px;
+    
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding-right: 20px;
+}
+
+/*section part starts*/
+
+/*section part ends*/
+
+.features {
+    background-color: azure;
+    padding: 80px 0;
+}
+
+.features-heading {
+    line-height: 145%;
+    width: 70%;
+    margin-left: 15%;
+}
+
+.section-features .features-heading {
+    margin-bottom: 30px;
+}
+
+p {
+    word-spacing: 3px;
+    line-height: 20px;
+    letter-spacing: 1px;
+    text-align: justify;
+    font-family: cursive
+}
+
+
+
+.foodphotos {
+    padding: 0;
+    
+}
+
+section {
+    padding: 80px 0;
+}
+
+.food {
+    list-style: none;
+    width:100%;
+}
+
+.food li{
+    display: block;
+    float: left;
+    width: 25%;
+}
+
+.foodphoto {
+    width: 100%;
+    margin:0;
+    overflow: hidden;
+    background-color: #000;
+}
+
+.foodphoto img{
+    opacity: 0.7;
+    width: 100%;
+    height: auto;
+    margin-left: 0;
+    transform: scale(1.15);
+    
+}
